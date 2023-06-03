@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "ChatBot: Powered by AI",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png"
+    },
+    "slug": "chatbot",
+    "version": "1.3.7",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "721b88d7-5b27-4b5f-ad28-5b67c20abfd0"
+      }
+    },
+    "owner": "swiftai",
+    "ios": {
+      "buildNumber": "1.3.7",
+      "bundleIdentifier": "com.swiftai.chatbot",
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/icon.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "android": {
+      "versionCode": 137,
+      "package": "com.swiftai.chatbot",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "plugins": [
+      "expo-localization"
+    ],
+    "runtimeVersion": "48.0.15",
+    "updates": {
+      "url": "https://u.expo.dev/721b88d7-5b27-4b5f-ad28-5b67c20abfd0"
+    }
+  }
+}
